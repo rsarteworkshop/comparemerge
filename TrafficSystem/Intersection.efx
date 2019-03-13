@@ -132,7 +132,7 @@
                 <element xmi:type="uml:Port" href="platform:/resource/TrafficLightComponent/TrafficLight.efx#_mNcJMD9KEem8CasODRgj_A?TrafficLightComponent/TrafficLight/control?"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u3g2AT9NEem8CasODRgj_A" x="4101" y="851"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u3dysT9NEem8CasODRgj_A" x="1161" y="4276" height="2112"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u3dysT9NEem8CasODRgj_A" x="3804" y="555" height="2112"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_wfBmYD9NEem8CasODRgj_A" element="_we5qkD9NEem8CasODRgj_A" fontName="Segoe UI" fontHeight="8" showListVisibility="None" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <eAnnotations xmi:id="_wfCNcD9NEem8CasODRgj_A" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -154,7 +154,7 @@
                 <element xmi:type="uml:Port" href="platform:/resource/TrafficLightComponent/TrafficLight.efx#_mNcJMD9KEem8CasODRgj_A?TrafficLightComponent/TrafficLight/control?"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wfECoT9NEem8CasODRgj_A" x="1848" y="-132"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wfBmYT9NEem8CasODRgj_A" x="8553" y="7576"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wfBmYT9NEem8CasODRgj_A" x="17118" y="7846"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_zCWewD9NEem8CasODRgj_A" element="_zCPKAD9NEem8CasODRgj_A" fontName="Segoe UI" fontHeight="8" showListVisibility="None" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <eAnnotations xmi:id="_zCWewj9NEem8CasODRgj_A" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -176,7 +176,7 @@
                 <element xmi:type="uml:Port" href="platform:/resource/TrafficLightComponent/TrafficLight.efx#_mNcJMD9KEem8CasODRgj_A?TrafficLightComponent/TrafficLight/control?"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zCYT8T9NEem8CasODRgj_A" x="-132" y="1170"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zCWewT9NEem8CasODRgj_A" x="16473" y="4540" height="2192"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zCWewT9NEem8CasODRgj_A" x="16167" y="3408" height="2192"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_AXtZgD9SEemr6Mac7FwrAg" element="_AXMcID9SEemr6Mac7FwrAg" fontName="Segoe UI" fontHeight="8" showListVisibility="None" showListSignature="true" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <eAnnotations xmi:id="_AXvOsD9SEemr6Mac7FwrAg" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -240,7 +240,7 @@
                 <element xmi:type="uml:Port" href="platform:/resource/PedestrianLight/PedestrianLight.efx#_yvoRwEDnEemapMadm7hxKQ?PedestrianLight/PedestrianLight/lightControl?"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yvyCwUDnEemapMadm7hxKQ" x="4000" y="551"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_feCIgUAnEemqSf5ywm5jEw" x="1425" y="8368"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_feCIgUAnEemqSf5ywm5jEw" x="6657" y="8480"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_R8HYYUDnEemapMadm7hxKQ" element="_R79AUEDnEemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" showListVisibility="None" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <eAnnotations xmi:id="_R8HYY0DnEemapMadm7hxKQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -262,7 +262,7 @@
                 <element xmi:type="uml:Port" href="TrafficLightServer.efx#_e4jEgEDlEemapMadm7hxKQ?TrafficSystem/TrafficLightServer/httpControl?"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R8UMsUDnEemapMadm7hxKQ" x="1056" y="-132"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R8HYYkDnEemapMadm7hxKQ" x="8817" y="11800"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R8HYYkDnEemapMadm7hxKQ" x="13631" y="11016"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_TvgooUDnEemapMadm7hxKQ" element="_TvgBkEDnEemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" showListVisibility="None" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <eAnnotations xmi:id="_Tvgoo0DnEemapMadm7hxKQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -284,7 +284,7 @@
                 <element xmi:type="uml:Port" href="PedestrianButton.efx#_dDMesEDgEemapMadm7hxKQ?TrafficSystem/PedestrianButton/pedestrianEvents?"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TvqZoUDnEemapMadm7hxKQ" x="1188" y="-132"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TvgookDnEemapMadm7hxKQ" x="1293" y="11800"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TvgookDnEemapMadm7hxKQ" x="1268" y="11016"/>
             </children>
           </children>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_boIQBD9NEem8CasODRgj_A" type="Name"/>
@@ -350,7 +350,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_7ohDWT9NEem8CasODRgj_A" type="FromMultiplicity"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_7ohDWD9NEem8CasODRgj_A" y="396"/>
           </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7ogcQT9NEem8CasODRgj_A" points="[0, 0, -132, -791]$[0, 501, -132, -290]$[132, 501, 0, -290]$[132, 791, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7ogcQT9NEem8CasODRgj_A" points="[0, 0, -132, -791]$[132, 791, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iIhr0T9WEemiq8fxjjP-Vg" id="(0.49242424242424243,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iIiS4D9WEemiq8fxjjP-Vg" id="(0.49242424242424243,0.0)"/>
         </edges>
@@ -368,7 +368,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_8TJUsD9NEem8CasODRgj_A" type="FromMultiplicity"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_8TItqj9NEem8CasODRgj_A" y="396"/>
           </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8TItoT9NEem8CasODRgj_A" points="[0, 0, 2895, -53]$[-1448, 0, 1447, -53]$[-1448, 53, 1447, 0]$[-2895, 53, 0, 0]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8TItoT9NEem8CasODRgj_A" points="[0, 0, 2895, -53]$[-2895, 53, 0, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8TLJ4D9NEem8CasODRgj_A" id="(0.0,0.45454545454545453)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iIhr0D9WEemiq8fxjjP-Vg" id="(1.0,0.4318181818181818)"/>
         </edges>
@@ -402,7 +402,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_tCrZTEAnEemqSf5ywm5jEw" type="FromMultiplicity"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_tCrZS0AnEemqSf5ywm5jEw" y="396"/>
           </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tCrZQkAnEemqSf5ywm5jEw" points="[-132, 46, 5148, -1801]$[-2915, 46, 2365, -1801]$[-2915, 1181, 2365, -666]$[-5280, 1181, 0, -666]$[-5280, 1715, 0, -132]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tCrZQkAnEemqSf5ywm5jEw" points="[0, 0, 5280, -1847]$[-5280, 1847, 0, 0]"/>
         </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_5V8ecEDnEemapMadm7hxKQ" element="_5VyGYEDnEemapMadm7hxKQ" source="_yvyCwEDnEemapMadm7hxKQ" target="_R8UMsEDnEemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_5V8eckDnEemapMadm7hxKQ" type="NameLabel">
