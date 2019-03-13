@@ -50,3 +50,6 @@ tc.threads = [
     ]
 }
 ];
+tc.genUserCodeQualifiers = true;
+tc.contextSensitiveLibraryBuild = false;
+tc.fastLaneForFrequent = false;
