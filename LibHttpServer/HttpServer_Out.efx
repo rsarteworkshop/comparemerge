@@ -106,10 +106,17 @@ port = thePort;</body>
 	std::string encodedResource;&#xD;
 	Poco::URI::encode(resource, &quot; &quot;, encodedResource);&#xD;
 	&#xD;
+	Poco::Net::HTTPCredentials creds(&quot;user2&quot;, &quot;123&quot;);&#xD;
+	&#xD;
 	HTTPClientSession session(host, port);&#xD;
 	HTTPRequest request(HTTPRequest::HTTP_GET, &quot;/&quot; + encodedResource, HTTPMessage::HTTP_1_1);&#xD;
 	HTTPResponse response;&#xD;
 	session.sendRequest(request);&#xD;
+	&#xD;
+	if (response.getStatus() == Poco::Net::HTTPResponse::HTTP_UNAUTHORIZED)&#xD;
+	{&#xD;
+		return &quot;ERROR&quot;;&#xD;
+	}&#xD;
 	std::istream&amp; rs = session.receiveResponse(response);&#xD;
 	if (response.getStatus() != Poco::Net::HTTPResponse::HTTP_OK)&#xD;
 		return &quot;ERROR&quot;;&#xD;
