@@ -7,6 +7,7 @@
   <uml:Package xmi:id="_Tq3HUEAlEemqSf5ywm5jEw" name="PedestrianLight">
     <eAnnotations xmi:id="_mhRr4UWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragments">
       <references xmi:type="uml:Class" href="PedestrianLight.efx#_YanbAEAlEemqSf5ywm5jEw?PedestrianLight/PedestrianLight?"/>
+      <references xmi:type="uml:Artifact" href="platform:/resource/TrafficSystem/Utils.efx#_6KQCgEDiEemapMadm7hxKQ?PedestrianLight/Utils?"/>
     </eAnnotations>
     <eAnnotations xmi:id="_Tq3HUUAlEemqSf5ywm5jEw" source="uml2.diagrams" references="_Tq3HUkAlEemqSf5ywm5jEw">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Tq3HUkAlEemqSf5ywm5jEw" type="Class" name="Main">
@@ -51,6 +52,7 @@
       <eAnnotations xmi:id="_Tq3HXUAlEemqSf5ywm5jEw" source="RSA_ElementImport"/>
       <importedPackage xmi:type="uml:Model" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTComponents.emx#__QdLdUB2PEd2Vrcc_Gxok_A37F129B1035A?RTComponents?"/>
     </packageImport>
+    <packagedElement xmi:type="uml:Artifact" href="platform:/resource/TrafficSystem/Utils.efx#_6KQCgEDiEemapMadm7hxKQ?PedestrianLight/Utils?"/>
     <packagedElement xmi:type="uml:Class" href="PedestrianLight.efx#_YanbAEAlEemqSf5ywm5jEw?PedestrianLight/PedestrianLight?"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_bR38AEAlEemqSf5ywm5jEw" name="PedestrianEvents">
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_bR38AkAlEemqSf5ywm5jEw" name="PedestrianEvents" clientDependency="_bR38CkAlEemqSf5ywm5jEw _bR38C0AlEemqSf5ywm5jEw">
