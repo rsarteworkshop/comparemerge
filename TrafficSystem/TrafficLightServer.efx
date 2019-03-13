@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--HCL RealTime Software Tooling 10.3.0-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="RTist Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
+  <uml:Class xmi:id="_BWnpwEC7EemapMadm7hxKQ" name="TrafficLightServer">
+    <eAnnotations xmi:id="_uYk_UUWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragments"/>
+    <eAnnotations xmi:id="_uYk_UEWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragmentContainer">
+      <references xmi:type="uml:Package" href="TrafficSystem.emx#_kd96MD9LEem8CasODRgj_A?TrafficSystem?"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_BWwzsEC7EemapMadm7hxKQ" source="uml2.diagrams" references="_BWwzsUC7EemapMadm7hxKQ">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_BWwzsUC7EemapMadm7hxKQ" type="Structure" element="_BWnpwEC7EemapMadm7hxKQ" measurementUnit="Himetric">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_BWwzskC7EemapMadm7hxKQ" type="StructureDiagramFrame" element="_BWnpwEC7EemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_BWwzs0C7EemapMadm7hxKQ" type="StructureCompartment"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_BWwztEC7EemapMadm7hxKQ" type="Name"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWwztUC7EemapMadm7hxKQ" x="793" y="793"/>
+        </children>
+      </contents>
+    </eAnnotations>
+    <clientDependency href="TrafficSystem.emx#_luZskEDmEemapMadm7hxKQ?TrafficSystem/%3CDependency%3E(Supplier-Utils)?"/>
+    <generalization xmi:id="_T-9d4EC7EemapMadm7hxKQ">
+      <general xmi:type="uml:Class" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_gYkN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out?"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_e4jEgEDlEemapMadm7hxKQ" name="httpControl" aggregation="composite" isBehavior="true">
+      <type xmi:type="uml:Collaboration" href="platform:/resource/PedestrianLight/PedestrianLight.emx#_bR38AkAlEemqSf5ywm5jEw?PedestrianLight/PedestrianEvents/PedestrianEvents?"/>
+    </ownedAttribute>
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_BWqtEEC7EemapMadm7hxKQ" name="State Machine">
+      <eAnnotations xmi:id="_BWvlkEC7EemapMadm7hxKQ" source="uml2.diagrams" references="_BWvlkUC7EemapMadm7hxKQ">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_BWvlkUC7EemapMadm7hxKQ" type="Statechart" element="_BWqtEEC7EemapMadm7hxKQ" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLFrame" xmi:id="_BWvlkkC7EemapMadm7hxKQ" type="Statemachine" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label" alignment="Horizontal">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_BWvlk0C7EemapMadm7hxKQ" type="Region" verticalAlignment="false">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_Mx5doEDkEemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+                <children xmi:type="notation:DecorationNode" xmi:id="_Mx5dokDkEemapMadm7hxKQ" type="NameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mx6EsEDkEemapMadm7hxKQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mx6EsUDkEemapMadm7hxKQ" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mx6EskDkEemapMadm7hxKQ" type="Parent"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mx5do0DkEemapMadm7hxKQ" y="-149"/>
+                </children>
+                <element xmi:type="uml:Pseudostate" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_rXsN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/%3CPseudostate%3E?"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mx5doUDkEemapMadm7hxKQ" x="5092" y="172"/>
+              </children>
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_Mx6Es0DkEemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                <children xmi:type="notation:DecorationNode" xmi:id="_Mx6rwEDkEemapMadm7hxKQ" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_Mx6rwUDkEemapMadm7hxKQ" width="1320" height="1320"/>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mx6rwkDkEemapMadm7hxKQ" type="Stereotype"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mx7S0EDkEemapMadm7hxKQ" type="Name"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mx7S0UDkEemapMadm7hxKQ" type="Parent"/>
+                <children xmi:type="notation:ListCompartment" xmi:id="_Mx7S0kDkEemapMadm7hxKQ" visible="false" type="Activities"/>
+                <children xmi:type="notation:ListCompartment" xmi:id="_Mx7S00DkEemapMadm7hxKQ" type="InternalTransitionCompartment"/>
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_z42OgUDlEemapMadm7hxKQ" visible="false" type="Region" element="_z4gQQEDlEemapMadm7hxKQ" collapsed="true" verticalAlignment="false"/>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_z42OgkDlEemapMadm7hxKQ" element="_z4heYEDlEemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_z42OhEDlEemapMadm7hxKQ" type="NameLabel">
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_z42OhkDlEemapMadm7hxKQ" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_z42Oh0DlEemapMadm7hxKQ" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_z42OiEDlEemapMadm7hxKQ" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z42OhUDlEemapMadm7hxKQ" y="-186"/>
+                  </children>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z42Og0DlEemapMadm7hxKQ"/>
+                </children>
+                <element xmi:type="uml:State" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_tz8N6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/WaitForMessage?"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mx6EtEDkEemapMadm7hxKQ" x="3822" y="1950"/>
+              </children>
+              <element xmi:type="uml:Region" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_qJkN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1?"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_BWvllEC7EemapMadm7hxKQ" type="Name"/>
+            <element xmi:type="uml:StateMachine" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_o7cN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine?"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWvllUC7EemapMadm7hxKQ" x="635" y="635"/>
+          </children>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Mx_kQEDkEemapMadm7hxKQ" source="_Mx5doEDkEemapMadm7hxKQ" target="_z42OgkDlEemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Mx_kQkDkEemapMadm7hxKQ" type="TransitionLabelCompartment">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_Mx_kREDkEemapMadm7hxKQ" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_MyALUEDkEemapMadm7hxKQ" type="TransitionLabel"/>
+              <children xmi:type="notation:ListCompartment" xmi:id="_MyALUUDkEemapMadm7hxKQ" type="Triggers"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mx_kQ0DkEemapMadm7hxKQ" y="-186"/>
+            </children>
+            <element xmi:type="uml:Transition" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_ubAN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/Initial?"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mx_kQUDkEemapMadm7hxKQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z5JJcEDlEemapMadm7hxKQ" id="(0.783661119515885,1.0)"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <region xmi:id="_BWrUIEC7EemapMadm7hxKQ" name="Region1">
+        <subvertex xmi:type="uml:State" xmi:id="_z4XGUEDlEemapMadm7hxKQ" name="WaitForMessage">
+          <connectionPoint xmi:id="_z4heYEDlEemapMadm7hxKQ" kind="entryPoint"/>
+          <redefinedState href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_tz8N6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/WaitForMessage?"/>
+          <region xmi:id="_z4gQQEDlEemapMadm7hxKQ" name="Region1">
+            <transition xmi:id="_z4heYUDlEemapMadm7hxKQ" name="walk" kind="internal">
+              <source xmi:type="uml:State" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_tz8N6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/WaitForMessage?"/>
+              <target xmi:type="uml:State" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_tz8N6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/WaitForMessage?"/>
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_7qBr0EDlEemapMadm7hxKQ" name="Effect">
+                <language>C++</language>
+                <body>httpGet(&quot;pedlight?light=walk&quot;);</body>
+              </effect>
+              <trigger xmi:id="_3On3gEDlEemapMadm7hxKQ" name="" port="_e4jEgEDlEemapMadm7hxKQ">
+                <event xmi:type="uml:CallEvent" href="platform:/resource/PedestrianLight/PedestrianLight.emx#_j5bAoEAlEemqSf5ywm5jEw?PedestrianLight/PedestrianEvents/PedestrianEvents/pedestrianGreen?"/>
+              </trigger>
+            </transition>
+            <transition xmi:id="_00cUEEDlEemapMadm7hxKQ" name="stop" kind="internal">
+              <source xmi:type="uml:State" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_tz8N6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/WaitForMessage?"/>
+              <target xmi:type="uml:State" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_tz8N6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/WaitForMessage?"/>
+              <effect xmi:type="uml:OpaqueBehavior" xmi:id="_7BpdMEDlEemapMadm7hxKQ" name="Effect">
+                <language>C++</language>
+                <body>httpGet(&quot;pedlight?light=stop&quot;);</body>
+              </effect>
+              <trigger xmi:id="_4luNUEDlEemapMadm7hxKQ" name="" port="_e4jEgEDlEemapMadm7hxKQ">
+                <event xmi:type="uml:CallEvent" href="platform:/resource/PedestrianLight/PedestrianLight.emx#_hq23UEAlEemqSf5ywm5jEw?PedestrianLight/PedestrianEvents/PedestrianEvents/pedestrianRed?"/>
+              </trigger>
+            </transition>
+          </region>
+        </subvertex>
+        <transition xmi:id="_ObmmYEDkEemapMadm7hxKQ" name="Initial" target="_z4heYEDlEemapMadm7hxKQ">
+          <redefinedTransition href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_ubAN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/Initial?"/>
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_Obw-cUDkEemapMadm7hxKQ" name="Effect">
+            <language>C++</language>
+            <body>	std::string webhost;&#xD;
+	unsigned int webport;&#xD;
+	getWebHostAndPort(webhost, webport);&#xD;
+	configureServer(webhost, webport);</body>
+          </effect>
+        </transition>
+        <extendedRegion href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_qJkN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1?"/>
+      </region>
+      <extendedStateMachine href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_o7cN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine?"/>
+    </ownedBehavior>
+  </uml:Class>
+  <UMLRealTime:Capsule xmi:id="_BWuXcEC7EemapMadm7hxKQ" base_Class="_BWnpwEC7EemapMadm7hxKQ"/>
+  <UMLRealTime:RTRedefinableElement xmi:id="_UO9BsEC7EemapMadm7hxKQ" base_RedefinableElement="_BWqtEEC7EemapMadm7hxKQ">
+    <rootFragment xmi:type="uml:StateMachine" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_o7cN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine?"/>
+  </UMLRealTime:RTRedefinableElement>
+  <UMLRealTime:RTRedefinableElement xmi:id="_UO-24EC7EemapMadm7hxKQ" base_RedefinableElement="_BWrUIEC7EemapMadm7hxKQ">
+    <rootFragment xmi:type="uml:Region" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_qJkN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1?"/>
+  </UMLRealTime:RTRedefinableElement>
+  <UMLRealTime:RTRedefinableElement xmi:id="_Obw-cEDkEemapMadm7hxKQ" base_RedefinableElement="_ObmmYEDkEemapMadm7hxKQ">
+    <rootFragment xmi:type="uml:Transition" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_ubAN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/Initial?"/>
+  </UMLRealTime:RTRedefinableElement>
+  <UMLRealTime:RTPort xmi:id="_e4mH0EDlEemapMadm7hxKQ" base_Port="_e4jEgEDlEemapMadm7hxKQ"/>
+  <UMLRealTime:RTRedefinableElement xmi:id="_z4XGUUDlEemapMadm7hxKQ" base_RedefinableElement="_z4XGUEDlEemapMadm7hxKQ">
+    <rootFragment xmi:type="uml:State" href="platform:/resource/LibHttpServer/HttpServer_Out.efx#_K_tz8N6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out/State%20Machine/Region1/WaitForMessage?"/>
+  </UMLRealTime:RTRedefinableElement>
+</xmi:XMI>

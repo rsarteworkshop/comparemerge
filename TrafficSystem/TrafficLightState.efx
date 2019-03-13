@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--HCL RealTime Software Tooling 10.3.0-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="RTist Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets?">
+  <uml:Class xmi:id="_uCywUD9UEemiq8fxjjP-Vg" name="TrafficLightState">
+    <eAnnotations xmi:id="_vWh1UEWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragments"/>
+    <eAnnotations xmi:id="_vWhOQEWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragmentContainer">
+      <references xmi:type="uml:Package" href="TrafficSystem.emx#_kd96MD9LEem8CasODRgj_A?TrafficSystem?"/>
+    </eAnnotations>
+    <ownedAttribute xmi:id="_wk788D9UEemiq8fxjjP-Vg" name="direction" visibility="private">
+      <type xmi:type="uml:Class" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTClasses.emx#_45A541C803DD37E928FA039F?RTClasses/RTString?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_0G6O4D9UEemiq8fxjjP-Vg" name="lane" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0876hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/int?"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_2q5OkD9UEemiq8fxjjP-Vg">
+        <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0876hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/int?"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3G1jsD9UEemiq8fxjjP-Vg" name="working" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0875RKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/bool?"/>
+      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_5Mx8gD9UEemiq8fxjjP-Vg">
+        <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0875RKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/bool?"/>
+      </defaultValue>
+    </ownedAttribute>
+  </uml:Class>
+  <CppPropertySets:GeneralAttributeProperties xmi:id="_8tOkcD9UEemiq8fxjjP-Vg" base_Property="_wk788D9UEemiq8fxjjP-Vg" getMethodKind="common" setMethodKind="common"/>
+  <CppPropertySets:GeneralAttributeProperties xmi:id="_-eLksD9UEemiq8fxjjP-Vg" base_Property="_0G6O4D9UEemiq8fxjjP-Vg" getMethodKind="common" setMethodKind="common"/>
+  <CppPropertySets:GeneralAttributeProperties xmi:id="__TlisD9UEemiq8fxjjP-Vg" base_Property="_3G1jsD9UEemiq8fxjjP-Vg" getMethodKind="common" setMethodKind="common"/>
+</xmi:XMI>

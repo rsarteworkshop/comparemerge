@@ -10,4 +10,4 @@ tc.createTargetProject = true;
 tc.targetProject = 'zzTrafficLightComponentTarget';
 tc.compilationMakeType = MakeType.GNU_make;
 tc.targetConfiguration = 'WinT.x64-MinGw-8.1.0';
-tc.topCapsule = 'platform:/resource/TrafficLightComponent/TrafficLightComponent.emx#_JebcgD9JEemB6cchjE0rOg';
+tc.topCapsule = 'platform:/resource/TrafficLightComponent/TrafficLight.efx#_JebcgD9JEemB6cchjE0rOg';

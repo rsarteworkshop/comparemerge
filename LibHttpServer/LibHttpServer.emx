@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--IBM Rational Software Architect RealTime Edition 10.3.0-->
+<!--HCL RealTime Software Tooling 10.3.0-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets? http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="RTist Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?">
   <uml:Package xmi:id="_rx2SkNXDEei3BJT-OqdJZA" name="LibHttpServer">
+    <eAnnotations xmi:id="_jctHoEWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragments">
+      <references xmi:type="uml:Class" href="HttpServer_In.efx#_wbBJEN62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In?"/>
+      <references xmi:type="uml:Class" href="HttpServer_Out.efx#_K_gYkN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out?"/>
+    </eAnnotations>
     <eAnnotations xmi:id="_rx2SkdXDEei3BJT-OqdJZA" source="uml2.diagrams">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Iy1FoN6wEeife8wA8rm4kw" type="Class" name="APIs">
-        <children xmi:type="umlnotation:UMLShape" xmi:id="_LBKlcN6wEeife8wA8rm4kw" element="_K_gYkN6wEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_LBKlcN6wEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_LBLMgN6wEeife8wA8rm4kw" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_LBLMgd6wEeife8wA8rm4kw" width="1320" height="1320"/>
           </children>
@@ -24,9 +28,10 @@
             <styles xmi:type="notation:SortingStyle" xmi:id="_LBMapt6wEeife8wA8rm4kw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_LBMap96wEeife8wA8rm4kw"/>
           </children>
+          <element xmi:type="uml:Class" href="HttpServer_Out.efx#_K_gYkN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out?"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LBKlcd6wEeife8wA8rm4kw" x="2794" y="1778"/>
         </children>
-        <children xmi:type="umlnotation:UMLShape" xmi:id="_fJEG0N67Eeife8wA8rm4kw" element="_wbBJEN62Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_fJEG0N67Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_fJEG0t67Eeife8wA8rm4kw" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_fJEG0967Eeife8wA8rm4kw" width="1320" height="1320"/>
           </children>
@@ -43,6 +48,7 @@
             <styles xmi:type="notation:SortingStyle" xmi:id="_fJF8A967Eeife8wA8rm4kw"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_fJF8BN67Eeife8wA8rm4kw"/>
           </children>
+          <element xmi:type="uml:Class" href="HttpServer_In.efx#_wbBJEN62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In?"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fJEG0d67Eeife8wA8rm4kw" x="12700" y="1651"/>
         </children>
         <children xmi:type="umlnotation:UMLShape" xmi:id="_t6JVYOK0Eeife8wA8rm4kw" element="_t6FrAOK0Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
@@ -142,287 +148,8 @@
       <eAnnotations xmi:id="_rx2S9tXDEei3BJT-OqdJZA" source="RSA_ElementImport"/>
       <importedPackage xmi:type="uml:Model" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTComponents.emx#__QdLdUB2PEd2Vrcc_Gxok_A37F129B1035A?RTComponents?"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_K_gYkN6wEeife8wA8rm4kw" name="HttpServer_Out">
-      <eAnnotations xmi:id="_LAFAUN6wEeife8wA8rm4kw" source="uml2.diagrams" references="_LAFAUd6wEeife8wA8rm4kw">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LAFAUd6wEeife8wA8rm4kw" type="Structure" element="_K_gYkN6wEeife8wA8rm4kw" measurementUnit="Himetric">
-          <children xmi:type="umlnotation:UMLShape" xmi:id="_LAFAUt6wEeife8wA8rm4kw" type="StructureDiagramFrame" element="_K_gYkN6wEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LAFAU96wEeife8wA8rm4kw" type="StructureCompartment">
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_m5YawN62Eeife8wA8rm4kw" visible="false" element="_6d7AIN6wEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" showListVisibility="None" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                <eAnnotations xmi:id="_m5ZB0N62Eeife8wA8rm4kw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
-                  <details xmi:id="_m5Zo4N62Eeife8wA8rm4kw" key="ShowTypeLabelStyle" value="Represents Name and Type Name"/>
-                </eAnnotations>
-                <children xmi:type="notation:DecorationNode" xmi:id="_m5Zo4d62Eeife8wA8rm4kw" type="ImageCompartment">
-                  <layoutConstraint xmi:type="notation:Size" xmi:id="_m5Zo4t62Eeife8wA8rm4kw" width="1320" height="1320"/>
-                </children>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_m5Zo4962Eeife8wA8rm4kw" type="PartTextCompartment"/>
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_m5Zo5N62Eeife8wA8rm4kw" visible="false" type="PartStructureCompartment"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m5Yawd62Eeife8wA8rm4kw"/>
-              </children>
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_m5aP8N62Eeife8wA8rm4kw" visible="false" element="_LrzBYN6xEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" showListVisibility="None" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                <eAnnotations xmi:id="_m5aP8t62Eeife8wA8rm4kw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
-                  <details xmi:id="_m5aP8962Eeife8wA8rm4kw" key="ShowTypeLabelStyle" value="Represents Name and Type Name"/>
-                </eAnnotations>
-                <children xmi:type="notation:DecorationNode" xmi:id="_m5a3AN62Eeife8wA8rm4kw" type="ImageCompartment">
-                  <layoutConstraint xmi:type="notation:Size" xmi:id="_m5a3Ad62Eeife8wA8rm4kw" width="1320" height="1320"/>
-                </children>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_m5a3At62Eeife8wA8rm4kw" type="PartTextCompartment"/>
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_m5a3A962Eeife8wA8rm4kw" visible="false" type="PartStructureCompartment"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m5aP8d62Eeife8wA8rm4kw"/>
-              </children>
-            </children>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_LAFAVN6wEeife8wA8rm4kw" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LAFAVd6wEeife8wA8rm4kw" x="635" y="635"/>
-          </children>
-        </contents>
-      </eAnnotations>
-      <ownedComment xmi:id="_AqgSoN67Eeife8wA8rm4kw" annotatedElement="_K_gYkN6wEeife8wA8rm4kw">
-        <body>&lt;p>Incarnate this capsule to send outgoing messages to an HTTP server.&lt;/p></body>
-      </ownedComment>
-      <ownedAttribute xmi:id="_6d7AIN6wEeife8wA8rm4kw" name="host" visibility="private"/>
-      <ownedAttribute xmi:id="_LrzBYN6xEeife8wA8rm4kw" name="port" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_b5qeIMuSEdy4n9Rh8xcU5g?CppPrimitiveDatatypes/unsigned%20int?"/>
-      </ownedAttribute>
-      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_K_o7cN6wEeife8wA8rm4kw" name="State Machine">
-        <eAnnotations xmi:id="_LAB9AN6wEeife8wA8rm4kw" source="uml2.diagrams" references="_LACkEN6wEeife8wA8rm4kw">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LACkEN6wEeife8wA8rm4kw" type="Statechart" element="_K_o7cN6wEeife8wA8rm4kw" measurementUnit="Himetric">
-            <children xmi:type="umlnotation:UMLFrame" xmi:id="_LACkEd6wEeife8wA8rm4kw" type="Statemachine" element="_K_o7cN6wEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" bold="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" alignment="Horizontal">
-              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LACkEt6wEeife8wA8rm4kw" type="Region" element="_K_qJkN6wEeife8wA8rm4kw" verticalAlignment="false">
-                <children xmi:type="umlnotation:UMLShape" xmi:id="_SEEAcN6wEeife8wA8rm4kw" element="_K_rXsN6wEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
-                  <children xmi:type="notation:DecorationNode" xmi:id="_SEEngN6wEeife8wA8rm4kw" type="NameLabel">
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_SEFOkN6wEeife8wA8rm4kw" type="Stereotype"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_SEFOkd6wEeife8wA8rm4kw" type="Name"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_SEFOkt6wEeife8wA8rm4kw" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SEEngd6wEeife8wA8rm4kw" y="-149"/>
-                  </children>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SEEAcd6wEeife8wA8rm4kw" x="5092" y="172"/>
-                </children>
-                <children xmi:type="umlnotation:UMLShape" xmi:id="_SEF1oN6wEeife8wA8rm4kw" element="_K_tz8N6wEeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                  <children xmi:type="notation:DecorationNode" xmi:id="_SEGcsN6wEeife8wA8rm4kw" type="ImageCompartment">
-                    <layoutConstraint xmi:type="notation:Size" xmi:id="_SEGcsd6wEeife8wA8rm4kw" width="1320" height="1320"/>
-                  </children>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_SEHDwN6wEeife8wA8rm4kw" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_SEHDwd6wEeife8wA8rm4kw" type="Name"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_SEHDwt6wEeife8wA8rm4kw" type="Parent"/>
-                  <children xmi:type="notation:ListCompartment" xmi:id="_SEHq0N6wEeife8wA8rm4kw" visible="false" type="Activities"/>
-                  <children xmi:type="notation:ListCompartment" xmi:id="_SEI48N6wEeife8wA8rm4kw" visible="false" type="InternalTransitionCompartment"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SEF1od6wEeife8wA8rm4kw" x="3822" y="1950"/>
-                </children>
-              </children>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_LACkE96wEeife8wA8rm4kw" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LACkFN6wEeife8wA8rm4kw" x="635" y="635"/>
-            </children>
-          </contents>
-        </eAnnotations>
-        <region xmi:id="_K_qJkN6wEeife8wA8rm4kw" name="Region1">
-          <subvertex xmi:type="uml:Pseudostate" xmi:id="_K_rXsN6wEeife8wA8rm4kw"/>
-          <subvertex xmi:type="uml:State" xmi:id="_K_tz8N6wEeife8wA8rm4kw" name="WaitForMessage"/>
-          <transition xmi:id="_K_ubAN6wEeife8wA8rm4kw" name="Initial" source="_K_rXsN6wEeife8wA8rm4kw" target="_K_tz8N6wEeife8wA8rm4kw">
-            <eAnnotations xmi:id="_K_yFYN6wEeife8wA8rm4kw" source="uml2.alias">
-              <details xmi:id="_K_yscN6wEeife8wA8rm4kw" key="Initial"/>
-            </eAnnotations>
-            <effect xmi:type="uml:OpaqueBehavior" xmi:id="_ertdcN6wEeife8wA8rm4kw" name="Effect">
-              <language>C++</language>
-              <body>// Configure with default host name and port number. Override this transition to use other values.&#xD;
-configureServer(&quot;localhost&quot;, 12345);</body>
-            </effect>
-          </transition>
-        </region>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zNHE8N6wEeife8wA8rm4kw" name="configureServer" specification="_pzwv8N6wEeife8wA8rm4kw">
-        <language>C++</language>
-        <body>// Called when the server is initialized.&#xD;
-host = theHost;&#xD;
-port = thePort;</body>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_bteDUN6zEeife8wA8rm4kw" name="httpGet" specification="_0UyMwN6yEeife8wA8rm4kw">
-        <language>C++</language>
-        <body>try {&#xD;
-	std::string encodedResource;&#xD;
-	Poco::URI::encode(resource, &quot; &quot;, encodedResource);&#xD;
-	&#xD;
-	HTTPClientSession session(host, port);&#xD;
-	HTTPRequest request(HTTPRequest::HTTP_GET, &quot;/&quot; + encodedResource, HTTPMessage::HTTP_1_1);&#xD;
-	HTTPResponse response;&#xD;
-	session.sendRequest(request);&#xD;
-	std::istream&amp; rs = session.receiveResponse(response);&#xD;
-	if (response.getStatus() != Poco::Net::HTTPResponse::HTTP_OK)&#xD;
-		return &quot;ERROR&quot;;&#xD;
-		&#xD;
-	std::string s(std::istreambuf_iterator&lt;char>(rs), {});	&#xD;
-	return s;&#xD;
-}&#xD;
-catch (Poco::Exception&amp; exc) {&#xD;
-	std::cerr &lt;&lt; exc.displayText() &lt;&lt; std::endl;&#xD;
-	return &quot;ERROR&quot;;&#xD;
-}</body>
-      </ownedBehavior>
-      <ownedOperation xmi:id="_pzwv8N6wEeife8wA8rm4kw" name="configureServer" method="_zNHE8N6wEeife8wA8rm4kw">
-        <ownedParameter xmi:id="_Z6Wx0N6xEeife8wA8rm4kw" name="theHost"/>
-        <ownedParameter xmi:id="_eOKJUN6xEeife8wA8rm4kw" name="thePort"/>
-        <ownedParameter xmi:id="_WOmU8N61Eeife8wA8rm4kw" name="return" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0877hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/void?"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_0UyMwN6yEeife8wA8rm4kw" name="httpGet" method="_bteDUN6zEeife8wA8rm4kw">
-        <ownedComment xmi:id="__EOK8N6yEeife8wA8rm4kw" annotatedElement="_0UyMwN6yEeife8wA8rm4kw">
-          <body>&lt;p>Perform a http GET operation on the specified resource. The response string is returned (or &quot;ERROR&quot; in case an error occurs).&lt;/p></body>
-        </ownedComment>
-        <ownedParameter xmi:id="__aNCAN6yEeife8wA8rm4kw" name="resource"/>
-        <ownedParameter xmi:id="_VLaEgN6zEeife8wA8rm4kw" name="return" direction="return"/>
-      </ownedOperation>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_wbBJEN62Eeife8wA8rm4kw" name="HttpServer_In">
-      <eAnnotations xmi:id="_wbJr8N62Eeife8wA8rm4kw" source="uml2.diagrams" references="_wbKTAN62Eeife8wA8rm4kw">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wbKTAN62Eeife8wA8rm4kw" type="Structure" element="_wbBJEN62Eeife8wA8rm4kw" measurementUnit="Himetric">
-          <children xmi:type="umlnotation:UMLShape" xmi:id="_wbKTAd62Eeife8wA8rm4kw" type="StructureDiagramFrame" element="_wbBJEN62Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wbKTAt62Eeife8wA8rm4kw" type="StructureCompartment"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_wbKTA962Eeife8wA8rm4kw" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wbKTBN62Eeife8wA8rm4kw" x="635" y="635"/>
-          </children>
-        </contents>
-      </eAnnotations>
-      <ownedComment xmi:id="_5qRKEN66Eeife8wA8rm4kw" annotatedElement="_wbBJEN62Eeife8wA8rm4kw">
-        <body>&lt;p>Incarnate this capsule if you need communication from the HTTP server to the application. Incarnate it into a separate thread since it will make a long-running HTTP GET request that will not terminate until a message is sent from the server to the application.&lt;/p></body>
-      </ownedComment>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_b6M68N63Eeife8wA8rm4kw" name="timer" visibility="public" aggregation="composite" isBehavior="true" isService="false">
-        <type xmi:type="uml:Collaboration" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTClasses.emx#_18QelrIlEduJc5NEaBCMOw?RTClasses/Timing/Timing?"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_eUbFMN64Eeife8wA8rm4kw" name="host" visibility="private"/>
-      <ownedAttribute xmi:id="_eUbFMd64Eeife8wA8rm4kw" name="port" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_b5qeIMuSEdy4n9Rh8xcU5g?CppPrimitiveDatatypes/unsigned%20int?"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_jmI2cN64Eeife8wA8rm4kw" name="resource" visibility="private"/>
-      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_wbEMYN62Eeife8wA8rm4kw" name="State Machine">
-        <eAnnotations xmi:id="_wbId0N62Eeife8wA8rm4kw" source="uml2.diagrams" references="_wbId0d62Eeife8wA8rm4kw">
-          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_wbId0d62Eeife8wA8rm4kw" type="Statechart" element="_wbEMYN62Eeife8wA8rm4kw" measurementUnit="Himetric">
-            <children xmi:type="umlnotation:UMLFrame" xmi:id="_wbId0t62Eeife8wA8rm4kw" type="Statemachine" element="_wbEMYN62Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" bold="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" alignment="Horizontal">
-              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wbId0962Eeife8wA8rm4kw" type="Region" element="_wbEMYd62Eeife8wA8rm4kw" verticalAlignment="false">
-                <children xmi:type="umlnotation:UMLShape" xmi:id="_psdJ4N63Eeife8wA8rm4kw" element="_wbEzcN62Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
-                  <children xmi:type="notation:DecorationNode" xmi:id="_psdJ4t63Eeife8wA8rm4kw" type="NameLabel">
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_psdw8N63Eeife8wA8rm4kw" type="Stereotype"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_psdw8d63Eeife8wA8rm4kw" type="Name"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_psdw8t63Eeife8wA8rm4kw" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_psdJ4963Eeife8wA8rm4kw" y="-149"/>
-                  </children>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_psdJ4d63Eeife8wA8rm4kw" x="4584" y="299"/>
-                </children>
-                <children xmi:type="umlnotation:UMLShape" xmi:id="_psdw8963Eeife8wA8rm4kw" element="_wbFagN62Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                  <children xmi:type="notation:DecorationNode" xmi:id="_psdw9d63Eeife8wA8rm4kw" type="ImageCompartment">
-                    <layoutConstraint xmi:type="notation:Size" xmi:id="_psdw9t63Eeife8wA8rm4kw" width="1320" height="1320"/>
-                  </children>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_pseYAN63Eeife8wA8rm4kw" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_pseYAd63Eeife8wA8rm4kw" type="Name"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_pseYAt63Eeife8wA8rm4kw" type="Parent"/>
-                  <children xmi:type="notation:ListCompartment" xmi:id="_pseYA963Eeife8wA8rm4kw" visible="false" type="Activities"/>
-                  <children xmi:type="notation:ListCompartment" xmi:id="_pseYBN63Eeife8wA8rm4kw" visible="false" type="InternalTransitionCompartment"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_psdw9N63Eeife8wA8rm4kw" x="2679" y="2077" height="1417"/>
-                </children>
-              </children>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wbId1N62Eeife8wA8rm4kw" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wbId1d62Eeife8wA8rm4kw" x="635" y="635"/>
-            </children>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_pshbUN63Eeife8wA8rm4kw" element="_wbFagd62Eeife8wA8rm4kw" source="_psdJ4N63Eeife8wA8rm4kw" target="_psdw8963Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_psiCYN63Eeife8wA8rm4kw" type="TransitionLabelCompartment">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_psiCYt63Eeife8wA8rm4kw" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_psiCY963Eeife8wA8rm4kw" type="TransitionLabel"/>
-                <children xmi:type="notation:ListCompartment" xmi:id="_psiCZN63Eeife8wA8rm4kw" type="Triggers"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_psiCYd63Eeife8wA8rm4kw" y="-149"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pshbUd63Eeife8wA8rm4kw" points="[0, 0, 0, -1270]$[0, 1270, 0, 0]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_psm64N63Eeife8wA8rm4kw" id="(0.4988179669030733,1.0)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_psm64d63Eeife8wA8rm4kw" id="(0.49774774774774777,0.0)"/>
-            </edges>
-            <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Ai5WIN64Eeife8wA8rm4kw" element="_Ai3g8N64Eeife8wA8rm4kw" source="_psdw8963Eeife8wA8rm4kw" target="_psdw8963Eeife8wA8rm4kw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
-              <children xmi:type="notation:DecorationNode" xmi:id="_Ai59MN64Eeife8wA8rm4kw" type="TransitionLabelCompartment">
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ai59Mt64Eeife8wA8rm4kw" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Ai59M964Eeife8wA8rm4kw" type="TransitionLabel"/>
-                <children xmi:type="notation:ListCompartment" xmi:id="_Ai59NN64Eeife8wA8rm4kw" type="Triggers"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ai59Md64Eeife8wA8rm4kw" x="-84" y="677"/>
-              </children>
-              <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ai5WId64Eeife8wA8rm4kw" points="[42, 0, 21, 551]$[1058, 0, 1037, 551]$[1058, -572, 1037, -21]$[42, -572, 21, -21]"/>
-              <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ai9AgN64Eeife8wA8rm4kw" id="(0.9852352352352353,0.6273817925194072)"/>
-              <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ai9Agd64Eeife8wA8rm4kw" id="(0.9904904904904905,0.23853211009174313)"/>
-            </edges>
-          </contents>
-        </eAnnotations>
-        <region xmi:id="_wbEMYd62Eeife8wA8rm4kw" name="Region1">
-          <subvertex xmi:type="uml:Pseudostate" xmi:id="_wbEzcN62Eeife8wA8rm4kw"/>
-          <subvertex xmi:type="uml:State" xmi:id="_wbFagN62Eeife8wA8rm4kw" name="WaitForIncomingMessage">
-            <entry xmi:type="uml:OpaqueBehavior" xmi:id="_-EINoN63Eeife8wA8rm4kw" name="Entry">
-              <language>C++</language>
-              <body>waitForIncomingMessage();&#xD;
-</body>
-            </entry>
-          </subvertex>
-          <transition xmi:id="_wbFagd62Eeife8wA8rm4kw" name="Initial" source="_wbEzcN62Eeife8wA8rm4kw" target="_wbFagN62Eeife8wA8rm4kw">
-            <eAnnotations xmi:id="_wbGBkN62Eeife8wA8rm4kw" source="uml2.alias">
-              <details xmi:id="_wbGBkd62Eeife8wA8rm4kw" key="Initial"/>
-            </eAnnotations>
-            <effect xmi:type="uml:OpaqueBehavior" xmi:id="_VCaxgN68Eeife8wA8rm4kw" name="Effect">
-              <language>C++</language>
-              <body>// Configure with default host name and port number. Override this transition to use other values.&#xD;
-configureServer(&quot;localhost&quot;, 12345, &quot;getMessage&quot;);</body>
-            </effect>
-          </transition>
-          <transition xmi:id="_Ai3g8N64Eeife8wA8rm4kw" name="messageReceived" source="_wbFagN62Eeife8wA8rm4kw" target="_wbFagN62Eeife8wA8rm4kw">
-            <trigger xmi:id="_NzN8sN64Eeife8wA8rm4kw" name="" port="_b6M68N63Eeife8wA8rm4kw">
-              <event xmi:type="uml:CallEvent" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTClasses.emx#_18o5ErIlEduJc5NEaBCMOw?RTClasses/Timing/timeout?"/>
-            </trigger>
-          </transition>
-        </region>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UhekcN64Eeife8wA8rm4kw" name="waitForIncomingMessage" specification="_Uhd9YN64Eeife8wA8rm4kw">
-        <language>C++</language>
-        <body>try {&#xD;
-	HTTPClientSession session(host, port);&#xD;
-	HTTPRequest request(HTTPRequest::HTTP_GET, &quot;/&quot; + resource, HTTPMessage::HTTP_1_1);&#xD;
-	HTTPResponse response;&#xD;
-	session.sendRequest(request);&#xD;
-	std::istream&amp; rs = session.receiveResponse(response);&#xD;
-	if (response.getStatus() == Poco::Net::HTTPResponse::HTTP_OK) {&#xD;
-		std::string s(std::istreambuf_iterator&lt;char>(rs), {});&#xD;
-		onMessageReceived(s);&#xD;
-	}&#xD;
-}&#xD;
-catch (Poco::Exception&amp; exc) {&#xD;
-	std::cerr &lt;&lt; &quot;Failed to GET http://&quot; &lt;&lt; host &lt;&lt; &quot;:&quot; &lt;&lt; port &lt;&lt; &quot;/&quot; &lt;&lt; resource &lt;&lt; &quot;: &quot; &lt;&lt; exc.displayText() &lt;&lt; std::endl &lt;&lt; std::flush;&#xD;
-}&#xD;
-&#xD;
-timer.informIn(RTTimespec(0,0)); // Schedule the waiting for another message to arrive&#xD;
-</body>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_VfoucN67Eeife8wA8rm4kw" name="onMessageReceived" specification="_M_U6QN67Eeife8wA8rm4kw">
-        <language>C++</language>
-        <body>// Called when a message is received from the HTTP server. Subclasses should override this operation&#xD;
-// to handle the received message.</body>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h_LYUN67Eeife8wA8rm4kw" name="configureServer" specification="_h_KxQN67Eeife8wA8rm4kw">
-        <language>C++</language>
-        <body>// Called when the server is initialized.&#xD;
-host = theHost;&#xD;
-port = thePort;&#xD;
-resource = theResource;</body>
-      </ownedBehavior>
-      <ownedOperation xmi:id="_Uhd9YN64Eeife8wA8rm4kw" name="waitForIncomingMessage" visibility="protected" method="_UhekcN64Eeife8wA8rm4kw">
-        <ownedParameter xmi:id="_BEsmMN65Eeife8wA8rm4kw" name="return" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0877hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/void?"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_M_U6QN67Eeife8wA8rm4kw" name="onMessageReceived" method="_VfoucN67Eeife8wA8rm4kw">
-        <ownedParameter xmi:id="_WnXLgN67Eeife8wA8rm4kw" name="return" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0877hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/void?"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_XNWNcN67Eeife8wA8rm4kw" name="msg"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_h_KxQN67Eeife8wA8rm4kw" name="configureServer" method="_h_LYUN67Eeife8wA8rm4kw">
-        <ownedParameter xmi:id="_h_KxQd67Eeife8wA8rm4kw" name="theHost"/>
-        <ownedParameter xmi:id="_h_KxQt67Eeife8wA8rm4kw" name="thePort"/>
-        <ownedParameter xmi:id="_i1eHIN67Eeife8wA8rm4kw" name="theResource"/>
-        <ownedParameter xmi:id="_h_KxQ967Eeife8wA8rm4kw" name="return" direction="return">
-          <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0877hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/void?"/>
-        </ownedParameter>
-      </ownedOperation>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" href="HttpServer_Out.efx#_K_gYkN6wEeife8wA8rm4kw?LibHttpServer/HttpServer_Out?"/>
+    <packagedElement xmi:type="uml:Class" href="HttpServer_In.efx#_wbBJEN62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In?"/>
     <profileApplication xmi:id="_rx25zNXDEei3BJT-OqdJZA">
       <eAnnotations xmi:id="_rx25zdXDEei3BJT-OqdJZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
@@ -461,37 +188,4 @@ resource = theResource;</body>
     </profileApplication>
   </uml:Package>
   <Default:DefaultLanguage xmi:id="_rx252NXDEei3BJT-OqdJZA" base_Package="_rx2SkNXDEei3BJT-OqdJZA" defaultLanguage="C++"/>
-  <UMLRealTime:Capsule xmi:id="_K_1vwN6wEeife8wA8rm4kw" base_Class="_K_gYkN6wEeife8wA8rm4kw"/>
-  <CppPropertySets:GeneralOperationProperties xmi:id="_202nsN6wEeife8wA8rm4kw" base_Operation="_pzwv8N6wEeife8wA8rm4kw"/>
-  <CppPropertySets:GeneralAttributeProperties xmi:id="_A1DhUN6xEeife8wA8rm4kw" base_Property="_6d7AIN6wEeife8wA8rm4kw" nativeType="std::string"/>
-  <CppPropertySets:GeneralCapsuleProperties xmi:id="_KPjF0N6xEeife8wA8rm4kw" base_Class="_K_gYkN6wEeife8wA8rm4kw">
-    <headerPreface xmi:id="_KPjs4N6xEeife8wA8rm4kw" body="#include &lt;iostream>&#xD;&#xA;&#xD;&#xA;"/>
-    <implementationPreface xmi:id="_BjC7oB4eEemsy6WLp4yALQ" body="#include &quot;Poco/Net/HTTPClientSession.h&quot;&#xD;&#xA;#include &quot;Poco/Net/HTTPRequest.h&quot;&#xD;&#xA;#include &quot;Poco/Net/HTTPResponse.h&quot;&#xD;&#xA;#include &quot;Poco/Exception.h&quot;&#xD;&#xA;#include &quot;Poco/URI.h&quot;&#xD;&#xA;using Poco::Net::HTTPClientSession;&#xD;&#xA;using Poco::Net::HTTPRequest;&#xD;&#xA;using Poco::Net::HTTPResponse;&#xD;&#xA;using Poco::Net::HTTPMessage;&#xD;&#xA;"/>
-  </CppPropertySets:GeneralCapsuleProperties>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_byRVsN6xEeife8wA8rm4kw" base_Parameter="_Z6Wx0N6xEeife8wA8rm4kw" nativeType="const std::string&amp;"/>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_fjLbgN6xEeife8wA8rm4kw" base_Parameter="_eOKJUN6xEeife8wA8rm4kw" nativeType="const unsigned int"/>
-  <Default:Documentation xmi:id="__EROQN6yEeife8wA8rm4kw" base_Comment="__EOK8N6yEeife8wA8rm4kw"/>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_AdLh8N6zEeife8wA8rm4kw" base_Parameter="__aNCAN6yEeife8wA8rm4kw" nativeType="const std::string&amp;"/>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_Y1iz8N6zEeife8wA8rm4kw" base_Parameter="_VLaEgN6zEeife8wA8rm4kw" nativeType="std::string"/>
-  <UMLRealTime:Capsule xmi:id="_wbHPsN62Eeife8wA8rm4kw" base_Class="_wbBJEN62Eeife8wA8rm4kw"/>
-  <UMLRealTime:RTPort xmi:id="_HjS2wd64Eeife8wA8rm4kw" isWired="false" base_Port="_b6M68N63Eeife8wA8rm4kw"/>
-  <CppPropertySets:GeneralAttributeProperties xmi:id="_eUbsQN64Eeife8wA8rm4kw" base_Property="_eUbFMN64Eeife8wA8rm4kw" nativeType="std::string"/>
-  <CppPropertySets:GeneralAttributeProperties xmi:id="_jmI2cd64Eeife8wA8rm4kw" base_Property="_jmI2cN64Eeife8wA8rm4kw" nativeType="std::string"/>
-  <Default:Documentation xmi:id="_5qSYMN66Eeife8wA8rm4kw" base_Comment="_5qRKEN66Eeife8wA8rm4kw"/>
-  <Default:Documentation xmi:id="_AqiH0N67Eeife8wA8rm4kw" base_Comment="_AqgSoN67Eeife8wA8rm4kw"/>
-  <CppPropertySets:GeneralOperationProperties xmi:id="_Osj4IN67Eeife8wA8rm4kw" base_Operation="_M_U6QN67Eeife8wA8rm4kw" polymorphic="true"/>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_YvO28N67Eeife8wA8rm4kw" base_Parameter="_XNWNcN67Eeife8wA8rm4kw" nativeType="const std::string&amp;"/>
-  <CppPropertySets:GeneralOperationProperties xmi:id="_h_LYUd67Eeife8wA8rm4kw" base_Operation="_h_KxQN67Eeife8wA8rm4kw"/>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_h_LYUt67Eeife8wA8rm4kw" base_Parameter="_h_KxQd67Eeife8wA8rm4kw" nativeType="const std::string&amp;"/>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_h_L_YN67Eeife8wA8rm4kw" base_Parameter="_h_KxQt67Eeife8wA8rm4kw" nativeType="const unsigned int"/>
-  <CppPropertySets:GeneralParameterProperties xmi:id="_i1euMN67Eeife8wA8rm4kw" base_Parameter="_i1eHIN67Eeife8wA8rm4kw" nativeType="const std::string&amp;"/>
-  <CppPropertySets:GeneralCapsuleProperties xmi:id="_pK_XYN6-Eeife8wA8rm4kw" base_Class="_wbBJEN62Eeife8wA8rm4kw">
-    <headerPreface xmi:id="_pK_XYd6-Eeife8wA8rm4kw" body="#include &lt;iostream>"/>
-    <implementationPreface xmi:id="_eph1sB42Eem-F63zUfAe3Q" body="#include &quot;Poco/Net/HTTPClientSession.h&quot;&#xD;&#xA;#include &quot;Poco/Net/HTTPRequest.h&quot;&#xD;&#xA;#include &quot;Poco/Net/HTTPResponse.h&quot;&#xD;&#xA;#include &quot;Poco/Exception.h&quot;&#xD;&#xA;using Poco::Net::HTTPClientSession;&#xD;&#xA;using Poco::Net::HTTPRequest;&#xD;&#xA;using Poco::Net::HTTPResponse;&#xD;&#xA;using Poco::Net::HTTPMessage;"/>
-  </CppPropertySets:GeneralCapsuleProperties>
-  <CppPropertySets:TargetRTSAttributeProperties xmi:id="_XQkiUEDsEemapMadm7hxKQ" base_Property="_6d7AIN6wEeife8wA8rm4kw" generateDescriptor="false"/>
-  <CppPropertySets:TargetRTSAttributeProperties xmi:id="_X3WOcEDsEemapMadm7hxKQ" base_Property="_LrzBYN6xEeife8wA8rm4kw"/>
-  <CppPropertySets:TargetRTSAttributeProperties xmi:id="_btPh8EDsEemapMadm7hxKQ" base_Property="_eUbFMN64Eeife8wA8rm4kw" generateDescriptor="false"/>
-  <CppPropertySets:TargetRTSAttributeProperties xmi:id="_cKLVkEDsEemapMadm7hxKQ" base_Property="_eUbFMd64Eeife8wA8rm4kw" generateDescriptor="false"/>
-  <CppPropertySets:TargetRTSAttributeProperties xmi:id="_fzBrkEDsEemapMadm7hxKQ" base_Property="_jmI2cN64Eeife8wA8rm4kw" generateDescriptor="false"/>
 </xmi:XMI>

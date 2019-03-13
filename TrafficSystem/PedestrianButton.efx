@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--HCL RealTime Software Tooling 10.3.0-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="RTist Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
+  <uml:Class xmi:id="_AnZzUEC7EemapMadm7hxKQ" name="PedestrianButton">
+    <eAnnotations xmi:id="_tJU98UWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragments"/>
+    <eAnnotations xmi:id="_tJU98EWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragmentContainer">
+      <references xmi:type="uml:Package" href="TrafficSystem.emx#_kd96MD9LEem8CasODRgj_A?TrafficSystem?"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_AoFv0EC7EemapMadm7hxKQ" source="uml2.diagrams" references="_AoFv0UC7EemapMadm7hxKQ">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_AoFv0UC7EemapMadm7hxKQ" type="Structure" element="_AnZzUEC7EemapMadm7hxKQ" measurementUnit="Himetric">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_AoFv0kC7EemapMadm7hxKQ" type="StructureDiagramFrame" element="_AnZzUEC7EemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_AoFv00C7EemapMadm7hxKQ" type="StructureCompartment"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_AoFv1EC7EemapMadm7hxKQ" type="Name"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AoFv1UC7EemapMadm7hxKQ" x="793" y="793"/>
+        </children>
+      </contents>
+    </eAnnotations>
+    <clientDependency href="TrafficSystem.emx#_jTlP8EDmEemapMadm7hxKQ?TrafficSystem/%3CDependency%3E(Supplier-Utils)?"/>
+    <generalization xmi:id="_Gt8TwEC7EemapMadm7hxKQ">
+      <general xmi:type="uml:Class" href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbBJEN62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In?"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_dDMesEDgEemapMadm7hxKQ" name="pedestrianEvents" aggregation="composite" isBehavior="true">
+      <type xmi:type="uml:Collaboration" href="platform:/resource/PedestrianLight/PedestrianLight.emx#_bR38AkAlEemqSf5ywm5jEw?PedestrianLight/PedestrianEvents/PedestrianEvents?"/>
+    </ownedAttribute>
+    <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_AnmnoEC7EemapMadm7hxKQ" name="State Machine">
+      <eAnnotations xmi:id="_AoCsgEC7EemapMadm7hxKQ" source="uml2.diagrams" references="_AoDTkEC7EemapMadm7hxKQ">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_AoDTkEC7EemapMadm7hxKQ" type="Statechart" element="_AnmnoEC7EemapMadm7hxKQ" measurementUnit="Himetric">
+          <children xmi:type="umlnotation:UMLFrame" xmi:id="_AoDTkUC7EemapMadm7hxKQ" type="Statemachine" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label" alignment="Horizontal">
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_AoDTkkC7EemapMadm7hxKQ" type="Region" verticalAlignment="false">
+              <element xmi:type="uml:Region" href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbEMYd62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine/Region1?"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_AoDTk0C7EemapMadm7hxKQ" type="Name"/>
+            <element xmi:type="uml:StateMachine" href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbEMYN62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine?"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AoDTlEC7EemapMadm7hxKQ" x="635" y="635"/>
+          </children>
+        </contents>
+      </eAnnotations>
+      <region xmi:id="_AnnOsEC7EemapMadm7hxKQ" name="Region1">
+        <transition xmi:id="_LtHm4EDkEemapMadm7hxKQ" name="Initial">
+          <redefinedTransition href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbFagd62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine/Region1/Initial?"/>
+          <effect xmi:type="uml:OpaqueBehavior" xmi:id="_LtKDIEDkEemapMadm7hxKQ" name="Effect">
+            <language>C++</language>
+            <body>std::string webhost;&#xD;
+unsigned int webport;&#xD;
+getWebHostAndPort(webhost, webport);&#xD;
+configureServer(webhost, webport, &quot;command&quot;);</body>
+          </effect>
+        </transition>
+        <extendedRegion href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbEMYd62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine/Region1?"/>
+      </region>
+      <extendedStateMachine href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbEMYN62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine?"/>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_YxGUMkDcEemapMadm7hxKQ" name="onMessageReceived" specification="_Yw78IEDcEemapMadm7hxKQ">
+      <language>C++</language>
+      <body>if (msg == &quot;ped_button&quot;) {&#xD;
+	// Button was pushed&#xD;
+	pedestrianEvents.buttonPressed().send();&#xD;
+}</body>
+    </ownedBehavior>
+    <ownedOperation xmi:id="_Yw78IEDcEemapMadm7hxKQ" name="onMessageReceived" method="_YxGUMkDcEemapMadm7hxKQ">
+      <ownedParameter xmi:id="_Yw78IUDcEemapMadm7hxKQ" name="return" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/CppPrimitiveDatatypes.emx#_f0877hKyEdyaM9S2zG4bgA?CppPrimitiveDatatypes/void?"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_YxFtIEDcEemapMadm7hxKQ" name="msg"/>
+      <redefinedOperation href="platform:/resource/LibHttpServer/HttpServer_In.efx#_M_U6QN67Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/onMessageReceived?"/>
+    </ownedOperation>
+  </uml:Class>
+  <UMLRealTime:Capsule xmi:id="_An14MEC7EemapMadm7hxKQ" base_Class="_AnZzUEC7EemapMadm7hxKQ"/>
+  <UMLRealTime:RTRedefinableElement xmi:id="_G5jt4EC7EemapMadm7hxKQ" base_RedefinableElement="_AnmnoEC7EemapMadm7hxKQ">
+    <rootFragment xmi:type="uml:StateMachine" href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbEMYN62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine?"/>
+  </UMLRealTime:RTRedefinableElement>
+  <UMLRealTime:RTRedefinableElement xmi:id="_G5mxMEC7EemapMadm7hxKQ" base_RedefinableElement="_AnnOsEC7EemapMadm7hxKQ">
+    <rootFragment xmi:type="uml:Region" href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbEMYd62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine/Region1?"/>
+  </UMLRealTime:RTRedefinableElement>
+  <CppPropertySets:GeneralParameterProperties xmi:id="_YxGUMEDcEemapMadm7hxKQ" base_Parameter="_YxFtIEDcEemapMadm7hxKQ" nativeType="const std::string&amp;"/>
+  <CppPropertySets:GeneralOperationProperties xmi:id="_YxGUMUDcEemapMadm7hxKQ" base_Operation="_Yw78IEDcEemapMadm7hxKQ" polymorphic="true"/>
+  <UMLRealTime:RTPort xmi:id="_dDMesUDgEemapMadm7hxKQ" isConjugate="true" base_Port="_dDMesEDgEemapMadm7hxKQ"/>
+  <UMLRealTime:RTRedefinableElement xmi:id="_LtJcEEDkEemapMadm7hxKQ" base_RedefinableElement="_LtHm4EDkEemapMadm7hxKQ">
+    <rootFragment xmi:type="uml:Transition" href="platform:/resource/LibHttpServer/HttpServer_In.efx#_wbFagd62Eeife8wA8rm4kw?LibHttpServer/HttpServer_In/State%20Machine/Region1/Initial?"/>
+  </UMLRealTime:RTRedefinableElement>
+</xmi:XMI>
