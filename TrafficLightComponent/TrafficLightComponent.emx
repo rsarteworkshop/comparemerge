@@ -7,6 +7,7 @@
   <uml:Package xmi:id="_IOih8D9JEemB6cchjE0rOg" name="TrafficLightComponent">
     <eAnnotations xmi:id="_oQMEwUWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragments">
       <references xmi:type="uml:Class" href="TrafficLight.efx#_JebcgD9JEemB6cchjE0rOg?TrafficLightComponent/TrafficLight?"/>
+      <references xmi:type="uml:Artifact" href="platform:/resource/TrafficSystem/Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficLightComponent/Utils?"/>
     </eAnnotations>
     <eAnnotations xmi:id="_IOih8T9JEemB6cchjE0rOg" source="uml2.diagrams" references="_IOih8j9JEemB6cchjE0rOg">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_IOih8j9JEemB6cchjE0rOg" type="Class" name="Main">
@@ -51,6 +52,7 @@
       <eAnnotations xmi:id="_IOih_T9JEemB6cchjE0rOg" source="RSA_ElementImport"/>
       <importedPackage xmi:type="uml:Model" href="platform:/plugin/com.ibm.xtools.umldt.rt.cpp.core/libraries/RTComponents.emx#__QdLdUB2PEd2Vrcc_Gxok_A37F129B1035A?RTComponents?"/>
     </packageImport>
+    <packagedElement xmi:type="uml:Artifact" href="platform:/resource/TrafficSystem/Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficLightComponent/Utils?"/>
     <packagedElement xmi:type="uml:Class" href="TrafficLight.efx#_JebcgD9JEemB6cchjE0rOg?TrafficLightComponent/TrafficLight?"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_cmF0cD9KEem8CasODRgj_A" name="LightProtocol">
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_cpl0YD9KEem8CasODRgj_A" name="LightProtocol" clientDependency="_cptJIT9KEem8CasODRgj_A _cptwMD9KEem8CasODRgj_A">

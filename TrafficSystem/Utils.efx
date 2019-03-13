@@ -5,8 +5,8 @@
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets?">
   <uml:Artifact xmi:id="_6KQCgEDiEemapMadm7hxKQ" name="Utils">
-    <eAnnotations xmi:id="_qJFgEEWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragmentContainer">
-      <references xmi:type="uml:Package" href="TrafficSystem.emx#_kd96MD9LEem8CasODRgj_A?TrafficSystem?"/>
+    <eAnnotations xmi:id="_HOt1oEWJEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragmentContainer">
+      <references xmi:type="uml:Package" href="platform:/resource/TrafficLightComponent/TrafficLightComponent.emx#_IOih8D9JEemB6cchjE0rOg?TrafficLightComponent?"/>
     </eAnnotations>
   </uml:Artifact>
   <CppPropertySets:GeneralArtifactProperties xmi:id="_cZfTAEDjEemapMadm7hxKQ" base_Artifact="_6KQCgEDiEemapMadm7hxKQ">

@@ -6,7 +6,6 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CppPropertySets="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:UMLRealTime="http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/CppPropertySets/_5TG7AMk4EeO2m9WtkWjeeQ/67 pathmap://CPP_LANGUAGE_PROFILE/CppPropertySets.epx#_5TYAwMk4EeO2m9WtkWjeeQ?CppPropertySets/CppPropertySets? http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http:///schemas/UMLRealTime/_3TUzoHq6Ed2hSeAAWZznoA/119 pathmap://RT_PROPERTIES/UMLRealTime.epx#_3TUzoXq6Ed2hSeAAWZznoA?UMLRealTime/UMLRealTime?">
   <uml:Package xmi:id="_kd96MD9LEem8CasODRgj_A" name="TrafficSystem">
     <eAnnotations xmi:id="_qJGHIEWEEem9Gvzqfk77pw" source="com.ibm.xtools.uml.msl.fragments">
-      <references xmi:type="uml:Artifact" href="Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficSystem/Utils?"/>
       <references xmi:type="uml:Class" href="Controller.efx#_lxWNoD9LEem8CasODRgj_A?TrafficSystem/Controller?"/>
       <references xmi:type="uml:Class" href="Intersection.efx#_boDXgD9NEem8CasODRgj_A?TrafficSystem/Intersection?"/>
       <references xmi:type="uml:Class" href="PedestrianButton.efx#_AnZzUEC7EemapMadm7hxKQ?TrafficSystem/PedestrianButton?"/>
@@ -286,13 +285,12 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" href="PedestrianButton.efx#_AnZzUEC7EemapMadm7hxKQ?TrafficSystem/PedestrianButton?"/>
     <packagedElement xmi:type="uml:Class" href="TrafficLightServer.efx#_BWnpwEC7EemapMadm7hxKQ?TrafficSystem/TrafficLightServer?"/>
-    <packagedElement xmi:type="uml:Artifact" href="Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficSystem/Utils?"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_jTlP8EDmEemapMadm7hxKQ" name="">
-      <supplier xmi:type="uml:Artifact" href="Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficSystem/Utils?"/>
+      <supplier xmi:type="uml:Artifact" href="Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficLightComponent/Utils?"/>
       <client xmi:type="uml:Class" href="PedestrianButton.efx#_AnZzUEC7EemapMadm7hxKQ?TrafficSystem/PedestrianButton?"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_luZskEDmEemapMadm7hxKQ" name="">
-      <supplier xmi:type="uml:Artifact" href="Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficSystem/Utils?"/>
+      <supplier xmi:type="uml:Artifact" href="Utils.efx#_6KQCgEDiEemapMadm7hxKQ?TrafficLightComponent/Utils?"/>
       <client xmi:type="uml:Class" href="TrafficLightServer.efx#_BWnpwEC7EemapMadm7hxKQ?TrafficSystem/TrafficLightServer?"/>
     </packagedElement>
     <profileApplication xmi:id="_kd96Pj9LEem8CasODRgj_A">

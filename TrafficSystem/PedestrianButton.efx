@@ -14,7 +14,7 @@
         <children xmi:type="umlnotation:UMLShape" xmi:id="_AoFv0kC7EemapMadm7hxKQ" type="StructureDiagramFrame" element="_AnZzUEC7EemapMadm7hxKQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
           <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_AoFv00C7EemapMadm7hxKQ" type="StructureCompartment"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_AoFv1EC7EemapMadm7hxKQ" type="Name"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AoFv1UC7EemapMadm7hxKQ" x="793" y="793"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AoFv1UC7EemapMadm7hxKQ" x="635" y="635"/>
         </children>
       </contents>
     </eAnnotations>
